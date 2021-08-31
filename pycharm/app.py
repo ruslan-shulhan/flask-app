@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 
 
 # load model
-path = '../model/pickle_model/model.pkl'
+path = './model.pkl'
 model = pickle.load(open(path, 'rb'))
 
 # app
